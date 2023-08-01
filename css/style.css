@@ -149,3 +149,37 @@ a {
   text-align: center;
   font-size: 18px;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  height: 450px;
+}
+
+.quote-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 745px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.quote-info {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-sub {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 auto;
+  width: 730px;
+}
+
+.quote-subtext {
+  font-size: 24px;
+  font-weight: 900;
+}
