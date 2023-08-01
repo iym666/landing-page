@@ -7,6 +7,15 @@ body {
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   background-color: #1f2937;
 }
@@ -38,4 +47,54 @@ a {
 .header-links {
   display: flex;
   gap: 24px;
+}
+
+.hero {
+  background-color: #1f2937;
+  padding: 75px 0;
+}
+
+.hero-container {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.hero-about {
+  max-width: 400px;
+}
+
+.hero-head {
+  color: #f9faf8;
+  font-weight: extra-bold;
+  font-size: 48px;
+}
+
+.hero-info {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.button {
+  background: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  padding: 5px 25px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.hero-img {
+  max-width: 500px;
+  min-height: 200px;
+  flex: 1;
+}
+
+.img {
+  width: 500px;
+  height: 200px;
 }
